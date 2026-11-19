@@ -1,0 +1,17 @@
+{
+  "name": "AttendWise — Attendance Management System",
+  "short_name": "AttendWise",
+  "id": "/",
+  "start_url": "/?from=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0b1020",
+  "theme_color": "#4f46e5",
+  "description": "Institutional attendance management: sheet import, validation, defaulter tracking and parent notifications.",
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

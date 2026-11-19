@@ -1,0 +1,19 @@
+{
+  "name": "attendance-management-system",
+  "version": "1.0.0",
+  "description": "Production-grade attendance management system for colleges/schools: sheet import, validation, calculations, defaulter detection and parent notifications.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node src/seed.js",
+    "seed:reset": "node src/seed.js --reset",
+    "test": "node --test test/"
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^11.10.0"
+  }
+}

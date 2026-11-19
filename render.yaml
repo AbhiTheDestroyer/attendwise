@@ -1,0 +1,16 @@
+# Render Blueprint — one-click deploy (free tier; note: free web services
+# sleep after ~15 min idle and cold-start slowly — see deploy/DEPLOY.md for
+# the always-on free option).
+services:
+  - type: web
+    name: attendwise
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: SIMULATE_NOTIFICATIONS
+        value: "true"
+      - key: COOKIE_SECURE
+        value: "true"

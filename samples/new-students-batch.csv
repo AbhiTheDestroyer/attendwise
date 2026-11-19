@@ -1,0 +1,9 @@
+roll_no,enrollment_no,full_name,department_code,semester,section_name,parent_name,parent_phone,parent_email,gender
+27,ECE2024A-027,Anmol Khurana,ECE,3,A,Sanjay Khurana,9812345601,sanjay.khurana@example.com,male
+28,ECE2024A-028,Ishita Raval,ECE,3,A,Meena Raval,9812345602,meena.raval@example.com,female
+29,ECE2024A-029,Parth Soni,ECE,3,A,,,male
+30,ECE2024A-030,Zoya Quadri,ECE,3,A,Imran Quadri,9812345604,,female
+31,ECE2024A-031,Devang Trivedi,ECE,3,A,Nilesh Trivedi,9812345605,nilesh.trivedi@example.com,male
+32,ECE2024A-032,Komal Bhatia,ECE,3,A,Rekha Bhatia,9812345606,,female
+33,ECE2024A-027,Anmol K. Turana,ECE,3,A,Sanjay Khurana,9812345601,,male
+,,No Enrollment,ECE,3,A,,,female

@@ -1,0 +1,10 @@
+node_modules
+data
+uploads
+*.log
+.git
+.env
+.env.local
+test
+samples
+README.md

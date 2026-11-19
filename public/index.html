@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AttendWise — Attendance Management System</title>
+<meta name="description" content="Institutional attendance management: sheet import, validation, defaulter tracking and parent notifications.">
+<script>try{document.documentElement.dataset.theme=localStorage.getItem('ams_theme')||((window.matchMedia&&matchMedia('(prefers-color-scheme:dark)').matches)?'dark':'light');}catch(e){}</script>
+<link rel="stylesheet" href="/styles.css?v=7">
+<meta name="theme-color" content="#4f46e5">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="AttendWise">
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="64x64" href="/icons/favicon.png">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%234f46e5'/><path d='M28 52l14 14 30-34' stroke='white' stroke-width='11' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>">
+</head>
+<body>
+<div id="app" class="app-boot">
+  <div class="boot-spinner" role="status" aria-label="Loading"></div>
+</div>
+<div id="modal-root"></div>
+<div id="toast-root" aria-live="polite"></div>
+<script src="/js/core.js?v=7" defer></script>
+<script src="/js/pages1.js?v=7" defer></script>
+<script src="/js/pages2.js?v=7" defer></script>
+<script src="/js/pages3.js?v=7" defer></script>
+<script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/sw.js').catch(() => { /* app still works online */ });
+  });
+}
+</script>
+</body>
+</html>
